@@ -17,7 +17,7 @@ php -S 127.0.0.1:8083 -t apps/default/ &
 
 ## 3. Profit
 
-`curl -H "host: www.example1.com" 192.168.33.10:443`
+`curl -H "host: www.example1.com" -k https://192.168.33.10:443`
 
 ## Litterature
 
