@@ -17,6 +17,9 @@ sed -i -e 's/ENABLED=0/ENABLED=1/g' /etc/default/haproxy
 mv /etc/haproxy/haproxy.cfg{,.original}
 ln -s /vagrant/haproxy.cfg /etc/haproxy/haproxy.cfg
 
+# Start HAPROXY
+service haproxy start
+
 # php -S 127.0.0.1:8081 -t apps/www.example1.com/ &
 # php -S 127.0.0.1:8082 -t apps/www.example2.com/ &
 
