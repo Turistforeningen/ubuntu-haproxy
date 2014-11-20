@@ -10,7 +10,7 @@ apt-get update
 apt-get install haproxy php5-cli
 
 # Move SSL Certificated
-# cp /vagrant/ssl/*.pem /etc/ssl/private/
+cp /vagrant/ssl/private/*.pem /etc/ssl/private/
 
 # Configure HAPROXY
 sed -i -e 's/ENABLED=0/ENABLED=1/g' /etc/default/haproxy
