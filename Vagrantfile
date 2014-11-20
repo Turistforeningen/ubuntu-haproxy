@@ -20,12 +20,6 @@ ln -s /vagrant/haproxy.cfg /etc/haproxy/haproxy.cfg
 # Start HAPROXY
 service haproxy start
 
-# php -S 127.0.0.1:8081 -t apps/www.example1.com/ &
-# php -S 127.0.0.1:8082 -t apps/www.example2.com/ &
-
-# curl --resolve 'www.example1.com:443:192.168.33.10' -k https://www.example1.com
-# curl --resolve 'www.example2.com:443:192.168.33.10' -k https://www.example2.com
-
 SCRIPT
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
